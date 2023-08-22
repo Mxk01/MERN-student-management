@@ -1,0 +1,107 @@
+.studenti__main{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 9px;
+}
+table > tr { 
+    border:0;
+}
+
+tr > th {
+    text-transform: uppercase;
+    font-size:smaller;
+     border-radius:30px;
+}
+.student__continue{
+    width:40vw;
+    border:0;
+    border-radius:25px;
+    color:white;
+    font-weight: bolder;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:15px;
+    background-color: #4a53ff;
+}
+tr > td {
+    border:0;
+    margin-bottom:3px;
+}
+tr > img {
+ width:70px;
+ height:70px;
+ border-radius: 50%;
+ object-fit: cover;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(42, 124, 255, 0.9);
+    -webkit-box-shadow: 0 0 1px rgba(5, 180, 255, 0.);
+}
+.studenti__container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header {
+    margin-left:100px;
+ 
+}
+ 
+.student__registeredDate{
+    margin-left:20px;
+    margin-top:10px;
+    background-color: rgb(29, 29, 29);
+    border-radius:35px;
+    color:white;
+    padding:8px;
+    display:flex;
+    font-family:Helvetica;
+    font-weight:bolder;
+    font-size:smaller;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+   
+    
+    flex-wrap: wrap;
+}
+.student__username {
+    font-weight: bold;
+    font-size:smaller;
+}
+
+
+ 
+
+@media only screen and (max-width: 560px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    tr > span:nth-of-type(1) , tr > td:nth-of-type(1),
+tr > span:nth-of-type(1) , tr > td:nth-of-type(1) {
+ display:none;   
+}
+.teacher-controls:nth-of-type(1) {
+  margin-left:-3px;
+}
+
+ .hide-responsive{
+    display:none;
+ }
+  }
+ 
+.student__logout:hover {
+    background-color: rgb(255, 63, 63);
+    cursor:pointer;
+ }

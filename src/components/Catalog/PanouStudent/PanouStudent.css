@@ -1,0 +1,54 @@
+.panou_student {
+    display:flex;
+    /* justify-content: center;
+    align-items: center; */
+    height:100vh;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+
+.panou__side>span {
+   
+        padding:.7rem;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size:smaller;
+}
+.panou__side{
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    -webkit-box-shadow: -1px 7px 15px 5px rgba(0,0,0,0.38); 
+box-shadow: -1px 7px 15px 5px rgba(0,0,0,0.38);    height:40vh;
+    width:100%;
+    font-size:1.2rem;
+    font-family: Helvetica;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 80%);
+
+}
+.panou__side2{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+ 
+}
+.hover__style:hover{
+    background-color:none !important;
+}
+.student__avatar {
+    background-size: cover;
+    background-position: center;
+    border-radius:50%;
+    width:65px;
+    height: 65px;
+    margin-left:5px;
+    object-fit:cover;
+}
