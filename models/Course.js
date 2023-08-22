@@ -1,7 +1,5 @@
 let mongoose = require('mongoose');
 let Schema = mongoose.Schema;
-
-
 let courseSchema = new Schema({
     name : {
         type:String
